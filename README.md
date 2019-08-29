@@ -35,3 +35,5 @@ Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 选择本地的存储目录
 等待下载
 PS:远端服务器也需要安装lrzsz。centOS安装方法： yum -y install lrzsz
+
+FROM:https://www.jianshu.com/p/e6700c50fced
