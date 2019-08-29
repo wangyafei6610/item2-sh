@@ -11,9 +11,10 @@ sudo cp /Users/J/Documents/python/software_packages/iterm2-zmodem-master/iterm2-
 
 ### 3.配置iterm2属性
 
-打开配置文件
+#### 打开配置文件
+item2-->Preferences-->profiles-->Default--->Advanced--->Triggers--->Edit
 
-在iTerm 2添加Triggers
+#### 在iTerm 2添加Triggers
 Regular expression: rz waiting to receive.\*\*B0100
 Action: Run Silent Coprocess
 Parameters: /usr/local/bin/iterm2-send-zmodem.sh
