@@ -1,16 +1,15 @@
-### 
-1.安装lrzsz
+### 1.安装lrzsz
+```
 brew install lrzsz
+```
 
-2.将两个sh 脚本保存在 /usr/local/bin/
+### 2.将两个sh 脚本保存在 /usr/local/bin/
 拉取 https://github.com/mmastrac/iterm2-zmodem 两个sh文件，将他们拷贝到/usr/local/bin文件夹中。
+```
 sudo cp /Users/J/Documents/python/software_packages/iterm2-zmodem-master/iterm2-* /usr/local/bin
+```
 
-3.配置iterm2属性
-
-
-
-
+### 3.配置iterm2属性
 
 打开配置文件
 
@@ -24,12 +23,6 @@ Action: Run Silent Coprocess
 Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 
 
-
-
-
-
-配置
-
 至此，所有配置完成。下面就可以使用黑科技来传输文件了。
 使用方法
 将文件传到远端服务器
@@ -41,8 +34,3 @@ Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 选择本地的存储目录
 等待下载
 PS:远端服务器也需要安装lrzsz。centOS安装方法： yum -y install lrzsz
-
-作者：Joncc
-链接：https://www.jianshu.com/p/e6700c50fced
-来源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
