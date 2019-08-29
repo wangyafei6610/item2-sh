@@ -4,9 +4,9 @@ brew install lrzsz
 ```
 
 ### 2.将两个sh 脚本保存在 /usr/local/bin/
-拉取 https://github.com/mmastrac/iterm2-zmodem 两个sh文件，将他们拷贝到/usr/local/bin文件夹中。
+拉取 https://github.com/wangyafei6610/item2-sh 两个sh文件，将他们拷贝到/usr/local/bin文件夹中。
 ```
-sudo cp /Users/J/Documents/python/software_packages/iterm2-zmodem-master/iterm2-* /usr/local/bin
+sudo cp ./item2-sh/iterm2-* /usr/local/bin
 ```
 
 ### 3.配置iterm2属性
